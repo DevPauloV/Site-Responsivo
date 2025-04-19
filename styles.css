@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F8F9FA;
+    color: #333;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.botao {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 30px;
+    
+}
+
+
