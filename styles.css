@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #F8F9FA;
+    background-color: #f8f9fa;
     color: #333;
     line-height: 1.5;
 }
@@ -25,7 +25,6 @@ a {
     margin: 0 auto;
 }
 
-
 .botao {
     background-color: #4caf50;
     color: white;
@@ -33,27 +32,23 @@ a {
     border-radius: 4px;
     margin-top: 30px;
     display: inline-block;
-    
 }
 
 .cabecalho {
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     z-index: 2;
     padding: 15px 0;
     width: 100%;
-    
 }
-
 
 .navegacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .logo {
     font-size: 1.5rem;
@@ -65,14 +60,12 @@ a {
     list-style: none;
     display: flex;
     gap: 20px;
-
 }
 
 .menu a {
     color: #333;
     font-weight: bold;
 }
-
 
 section {
     padding: 40px 0;
@@ -84,12 +77,10 @@ section {
     display: flex;
 }
 
-
 .destaque .container {
     display: flex;
     align-items: center;
     gap: 30px;
-
 }
 
 .texto h1 {
