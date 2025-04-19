@@ -74,3 +74,31 @@ a {
 }
 
 
+section {
+    padding: 40px 0;
+}
+
+.destaque {
+    padding-top: 90px;
+    background-color: #e9f7ef;
+    display: flex;
+}
+
+
+.destaque .container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.texto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
