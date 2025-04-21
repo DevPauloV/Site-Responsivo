@@ -25,7 +25,7 @@ a {
     margin: 0 auto;
 }
 
-.botao{
+.botao {
     background-color: #4caf50;
     color: white;
     padding: 10px 20px;
@@ -96,9 +96,8 @@ h2 {
 
 .recursos .container {
     display: grid;
-    grid-template-columns: repeat(3. 1fr);
+    grid-template-columns: repeat(3 1fr);
 }
-
 
 .card {
     padding: 20px;
@@ -116,12 +115,10 @@ h2 {
     text-align: center;
 }
 
-
 .cta .botao {
     background-color: white;
     color: #4caf50;
 }
-
 
 footer {
     text-align: center;
@@ -137,11 +134,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
     .destaque .container {
         flex-direction: column;
         text-align: center;
-        
     }
 
     .recursos .container {
@@ -157,10 +152,18 @@ footer {
     }
 
     .menu {
-        
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+        max-height: 0;
     }
-    
+
+    .menu.ativo {
+        max-height: 200px;
+    }
 }
-
-
- 
