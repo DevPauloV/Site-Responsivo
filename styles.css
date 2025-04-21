@@ -115,3 +115,15 @@ h2 {
     color: white;
     text-align: center;
 }
+
+
+.cta .botao {
+    background-color: white;
+    color: #4caf50;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
