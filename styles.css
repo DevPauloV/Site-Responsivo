@@ -127,3 +127,40 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.botao-menu {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .destaque .container {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .recursos .container {
+        grid-template-columns: 1fr;
+    }
+
+    .cta {
+        padding: 20px;
+    }
+
+    .botao-menu {
+        display: block;
+    }
+
+    .menu {
+        
+    }
+    
+}
+
+
+ 
