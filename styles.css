@@ -159,11 +159,14 @@ footer {
         background-color: white;
         flex-direction: column;
         overflow: hidden;
-        transition: 0.3s ease-in-out;
+        transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
         max-height: 0;
+        padding: 0; 
     }
-
+    
     .menu.ativo {
-        max-height: 200px;
+        max-height: 500px; 
+        padding: 20px; 
     }
+    
 }

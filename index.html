@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -28,6 +28,12 @@
                 </li>
                 <li>
                     <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#faleconosco">Fale Conosco</a>
+                </li>
+                <li>
+                    <a href="#contrateagora">Contrate Agora</a>
                 </li>
             </ul>
 
@@ -82,14 +88,20 @@
     </section>
 
     <footer>
-        Direitos reservados &copy; 2023 Eco Tech. Todos os direitos reservados.
+        Direitos reservados &copy; 2025 Eco Tech. Todos os direitos reservados.
     </footer>
 
 </body>
 
 
 <script>
+    let botao = document.querySelector('.botao-menu');
+    let menu = document.querySelector('.menu');
 
-    
+    botao.addEventListener('click', () => {
+        menu.classList.toggle('ativo');
+    });
+
 </script>
+
 </html>
